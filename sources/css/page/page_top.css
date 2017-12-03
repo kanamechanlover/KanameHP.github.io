@@ -1,0 +1,55 @@
+div#content-area {
+    margin: 0px auto;
+    padding: 0px;
+}
+div#main-image {
+    margin-bottom: 8px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+}
+div#main-image img {
+    display: block;
+    width: 100%;
+    min-height: 200px;
+}
+
+div#sub-contents {
+    width: 100%;
+    height: auto;
+}
+
+nav#page-link {
+    display: block;
+    float: left;
+    width: 240px;
+}
+
+div#notices {
+    width: auto;
+    margin: 0px;
+    padding-left: 248px;
+}
+div#notices .frame {
+    padding: 0px;
+    border: 1px solid black;
+}
+div#notices .header {
+    padding-left: 8px;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    border-left: 8px solid black;
+    background: silver;
+}
+div#notices object {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow-y: scroll;
+}
+
+div#page-footer {
+    margin-top: 4px;
+    font-size: 16px;
+    text-align: right;
+}

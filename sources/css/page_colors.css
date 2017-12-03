@@ -1,0 +1,63 @@
+/* 各ページのベースカラーを指定するCSS */
+
+header#page-header div.top {
+    background: azure;
+    border-left: 32px solid lightblue;
+    border-right: 32px solid lightblue;
+    color: skyblue;
+}
+
+/* 住人紹介 */
+nav a.dweller {
+    border-left: 8px solid mediumorchid;
+    border-top: 1px solid mediumorchid;
+    border-right: 1px solid mediumorchid;
+    border-bottom: 1px solid mediumorchid;
+}
+nav a.dweller:hover {
+    background: thistle;
+}
+header#page-header div.dweller {
+    background: thistle;
+    border-left: 32px solid mediumorchid;
+    border-right: 32px solid mediumorchid;
+    color: mediumorchid;
+}
+
+/* スクリーンショト */
+nav a.screenshot {
+    border-left: 8px solid dodgerblue;
+    border-top: 1px solid dodgerblue;
+    border-right: 1px solid dodgerblue;
+    border-bottom: 1px solid dodgerblue;
+}
+nav a.screenshot:hover {
+    background: skyblue;
+}
+header#page-header div.screenshot {
+    background: skyblue;
+    border-left: 32px solid dodgerblue;
+    border-right: 32px solid dodgerblue;
+    color: dodgerblue;
+}
+
+/* お絵かき */
+nav a.illust {
+    border-left: 8px solid darkorange;
+    border-top: 1px solid darkorange;
+    border-right: 1px solid darkorange;
+    border-bottom: 1px solid darkorange;
+}
+nav a.illust:hover {
+    background: khaki;
+}
+header#page-header div.illust {
+    background: khaki;
+    border-left: 32px solid darkorange;
+    border-right: 32px solid darkorange;
+    color: darkorange;
+}
+
+a#bns-link {
+    text-decoration: none;
+}
