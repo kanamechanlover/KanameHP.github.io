@@ -1,0 +1,36 @@
+/* コンテンツ表示要素 */
+div#content-area {
+    position: relative;
+    font-size: 40px;
+    margin: 8px auto;
+    min-width: 720px;
+    max-width: 720px;
+}
+div#content {
+    padding: 0px;
+    margin: 0px auto;
+}
+header#page-header {
+    padding: 0px;
+}
+div#page-title {
+    padding-top: 4px;
+    text-align: center;
+    font-weight: bold;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+}
+div#page-description {
+    padding-top: 4px;
+    font-size: 20px;
+    text-align: center;
+    height: 32px;
+}
+div#page-header-bottom {
+    height: 8px;
+    margin-bottom: 8px;
+}
+
+div#page-content-area {
+    padding: 0px;
+}

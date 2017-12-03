@@ -1,0 +1,141 @@
+.dweller-entries {
+}
+
+.dweller-entry {
+    margin: 0px 0px 8px 0px;
+    padding: 0px;
+    height: 380px;
+    border-radius: 16px;
+}
+
+.dweller-entry-header {
+    height: 32px;
+    padding: 2px 8px;
+    border-radius: 12px;
+}
+
+.dweller-entry-name {
+    float: left;
+    font-size: 24px;
+    color: white;
+}
+.dweller-entry-name2 {
+    position: absolute;
+    left: 88px;
+    bottom: 0px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+.dweller-entry-basic {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding-top: 2px;
+}
+
+.dweller-entry-voice {
+    padding: 4px 4px;
+    clear: both;
+    font-size: 24px;
+    height: 30px;
+}
+
+.dweller-entry-body {
+    margin: 0px;
+    padding: 0px;
+    clear: both;
+}
+
+.dweller-display {
+    display: block;
+    float: left;
+    width: 240px;
+}
+
+table.dweller-entry-detail-table {
+    margin: 0px;
+    padding: 0px;
+    /*margin-left: 240px;*/
+    width: auto;
+}
+tr.dweller-entry-type-line {
+    height: 24px;
+    max-height: 24px;
+    min-height: 24px;
+}
+tr.dweller-entry-description-line {
+    height: auto;
+}
+
+td.dweller-entry-type-cell {
+    width: 50%;
+}
+.dweller-entry-type {
+    font-size: 20px;
+    background: whitesmoke;
+    padding-left: 4px;
+    padding-top: 2px;
+}
+td.dweller-entry-description-cell {
+    padding-top: 4px;
+}
+.dweller-entry-description {
+    font-size: 20px;
+}
+.comming-soon {
+    font-size: 20px;
+    border: 1px solid gray;
+    background: silver;
+    border-radius: 16px;
+    padding-left: 16px;
+}
+
+/* 流衣用 */
+.rui-entry {
+    border: 1px solid dodgerblue;
+    background: skyblue;
+}
+.rui-header {
+    position: relative;
+    background: dodgerblue;
+}
+.rui-type {
+    border-left: 8px solid dodgerblue;
+    border-top: 1px solid dodgerblue;
+    border-right: 1px solid dodgerblue;
+    border-bottom: 1px solid dodgerblue;
+}
+
+/* 香菜芽用 */
+.kaname-entry {
+    border: 1px solid tomato;
+    background: darksalmon;
+}
+.kaname-header {
+    position: relative;
+    background: tomato;
+}
+.kaname-type {
+    border-left: 8px solid tomato;
+    border-top: 1px solid tomato;
+    border-right: 1px solid tomato;
+    border-bottom: 1px solid tomato;
+}
+
+/* ふぅり用 */
+.fuli-entry {
+    border: 1px solid limegreen;
+    background: lightgreen;
+}
+.fuli-header {
+    position: relative;
+    background: limegreen;
+}
+.fuli-type {
+    border-left: 8px solid limegreen;
+    border-top: 1px solid limegreen;
+    border-right: 1px solid limegreen;
+    border-bottom: 1px solid limegreen;
+}
